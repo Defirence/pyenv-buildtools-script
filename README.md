@@ -8,4 +8,3 @@ A simple `bash` script to install the `pyenv-buildtools` required for `pyenv` se
 - `chmod +x ./install-python-buildenv.sh`
 #### Run the script:
 - `./install-python-buildenv.sh`
-***
