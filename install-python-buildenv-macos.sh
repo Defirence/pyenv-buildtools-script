@@ -10,4 +10,3 @@ printf "https://brew.sh/installation\n"
 printf "Installing make wget curl llvm openssl@1.1 openssl@3 zlib bzip2 libreadline-java sqlite3 ncurses xz python-tk@3.9 tcl-tk libxml2 libxmlsec1\n"
 brew install make wget curl llvm openssl@1.1 openssl@3 zlib bzip2 libreadline-java sqlite3 ncurses xz python-tk@3.9 tcl-tk libxml2 libxmlsec1 -f
 printf "\e[1;32m[INFO - brew]\e[0m Installation complete... Exiting...\n"
-exit 0
