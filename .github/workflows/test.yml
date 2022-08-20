@@ -24,7 +24,7 @@ jobs:
           ls -lah
           echo $PWD
           cd kube-check
-          chmod +x ./kube-check.sh && chown ./kube-check.sh
+          chmod +x ./kube-check.sh
           sh ./kube-check.sh
           printf "Tests run against the script are complete on ubuntu-22.04 image..."
   test-macos-shell:
@@ -46,6 +46,6 @@ jobs:
           brew update
           brew upgrade -y
           cd kube-check
-          chmod +x ./kube-check.sh && chown ./kube-check.sh
+          chmod +x ./kube-check.sh
           sh ./kube-check.sh
           printf "Tests run against the script are complete on the macos-12.5 image..."
