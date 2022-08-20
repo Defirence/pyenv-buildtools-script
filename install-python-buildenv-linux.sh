@@ -1,4 +1,4 @@
-#!/usr/bin/env bash #!/usr/bin/env sh #!/usr/bin/env/zsh
+#!/usr/bin/sh
 printf "\e[1;36m[INIT]\e[0m Installing python-buildenv tools for pyenv..."
 printf "\e[1;32m[INFO]\e[0m Updating apt packages using apt-get update -y"
 sudo apt-get update -y
