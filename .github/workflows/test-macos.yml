@@ -24,7 +24,7 @@ jobs:
           ls -lah
           echo $PWD
           brew update
-          brew upgrade -y
+          brew upgrade -f
           cd pyenv-buildtools-script
           chmod +x ./install-python-buildenv-macos.sh
           sh ./install-python-buildenv-macos.sh
